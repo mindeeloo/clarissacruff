@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width">
     <title>replit</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <img src="ladybugmindeeloobanner.png" alt="background" width="960" height="500">
+
   </head>
   <body>
-    Hello world
+
     <script src="script.js"></script>
   </body>
 </html>
@@ -23,14 +23,24 @@
   </head>
   <body>
     <font face="Monospace" size="2px" color="#e34dc5">
-    <h3>Typing Results</h3>
+    <h1>Current Projects</h1>
     <hr>
-    <h3>AI Project</h3>
+    <h3>Time zone converter</h3>
     <hr>
-    <h3>Coding Project</h3>
+    <h3>None</h3>
     <hr>
-    <h3>Certifications</h3>
+    <h3>None</h3>
     <hr>
 </font>
+<script type="text/javascript">
+  function calcTime(city,offset){
+    var b=new Date()
+    var utc=b.getTime*()+(b.getTimezoneOffset()*60000);
+    var nd=new Date(utc+(3600000*offset));
+    return "The time of "+city+" is" +nd.toLocaleString();
+  }
+    console.log(calcTime('utah', '-6'))
+  
+  </script>
   </body>
 </html>
